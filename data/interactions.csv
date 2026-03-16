@@ -1,0 +1,36 @@
+interaction_id,item1_id,item1_name,item2_id,item2_name,severity,effect_english,effect_tamil,recommendation
+I001,D006,Metformin,H001,Ashwagandha,MODERATE,Both lower blood sugar - may cause hypoglycemia,இரண்டும் சர்க்கரையை குறைக்கும் - ரத்த சர்க்கரை அபாயகரமாக குறையலாம்,Doctor advice mandatory - monitor blood sugar closely
+I002,D006,Metformin,H017,Fenugreek,MODERATE,Both lower blood sugar - hypoglycemia risk,இரண்டும் சர்க்கரையை குறைக்கும் - கவனம் தேவை,Monitor blood sugar regularly - reduce fenugreek dose
+I003,D006,Metformin,H019,Moringa,MODERATE,Moringa has antidiabetic effect - combined may over-lower sugar,முருங்கை சர்க்கரையை குறைக்கும் - சேர்த்து சாப்பிட்டால் அதிகமாக குறையலாம்,Use with caution - monitor blood sugar
+I004,D015,Warfarin,H007,Garlic,SEVERE,Garlic increases bleeding risk with warfarin,பூண்டு ரத்தப்போக்கை அதிகரிக்கும் - மிகவும் ஆபத்து,Avoid combination - consult doctor immediately
+I005,D015,Warfarin,H004,Turmeric,SEVERE,Turmeric/Curcumin increases anticoagulant effect - severe bleeding risk,மஞ்சள் ரத்தப்போக்கை மிகவும் அதிகரிக்கும்,Avoid - dangerous combination
+I006,D015,Warfarin,H006,Ginger,MODERATE,Ginger has mild blood thinning effect,இஞ்சி ரத்தத்தை மெலிதாக்கும் - சேர்ந்தால் அபாயம்,Avoid or use minimal ginger - monitor INR
+I007,D022,Levothyroxine,H001,Ashwagandha,MODERATE,Ashwagandha affects thyroid hormone levels,அஸ்வகந்தா தைராய்டு அளவை மாற்றலாம்,Monitor thyroid levels regularly
+I008,D022,Levothyroxine,H004,Turmeric,MILD,Turmeric may reduce absorption of thyroid medicine,மஞ்சள் தைராய்டு மருந்தின் உறிஞ்சுதலை குறைக்கலாம்,Take thyroid medicine 4 hours apart from turmeric
+I009,D024,Sertraline,H012,Saffron,MODERATE,Both affect serotonin - serotonin syndrome risk,இரண்டும் மூளை வேதிப்பொருளை பாதிக்கும் - ஆபத்தான நிலை வரலாம்,Avoid combination - consult psychiatrist
+I010,D024,Sertraline,H011,Brahmi,MILD,Brahmi may enhance sedative effects,பிராமி மயக்க விளைவை அதிகரிக்கலாம்,Use with caution - monitor for excessive drowsiness
+I011,D014,Ecosprin,H007,Garlic,MODERATE,Both thin blood - increased bleeding risk,இரண்டும் ரத்தத்தை மெலிதாக்கும் - ரத்தப்போக்கு அபாயம்,Avoid large amounts of garlic - consult doctor
+I012,D014,Ecosprin,H006,Ginger,MILD,Mild additive blood thinning effect,இஞ்சி ரத்தத்தை மெலிதாக்கும் விளைவை கூட்டலாம்,Limit ginger intake - monitor for bruising
+I013,D010,Amlodipine,H023,Hibiscus,MODERATE,Hibiscus lowers BP - combined may cause very low BP,செம்பரத்தை ரத்த அழுத்தத்தை குறைக்கும் - மிகவும் குறையலாம்,Monitor blood pressure closely
+I014,D010,Amlodipine,H020,Sarpagandha,SEVERE,Both lower BP significantly - dangerous hypotension,இரண்டும் ரத்த அழுத்தத்தை மிகவும் குறைக்கும் - மயக்கம் வரலாம்,Avoid combination - very dangerous
+I015,D016,Atorvastatin,H007,Garlic,MILD,Garlic may enhance cholesterol lowering,பூண்டு கொழுப்பை குறைக்கும் விளைவை கூட்டலாம்,Generally safe but monitor liver enzymes
+I016,D035,Prednisolone,H008,Aloe Vera,MODERATE,Aloe vera has laxative effect - may cause electrolyte imbalance with steroids,கற்றாழை மலமிளக்கும் - ஸ்டீராய்டுடன் உப்பு சமநிலை பாதிக்கும்,Avoid oral aloe vera with steroids
+I017,D026,Alprazolam,H011,Brahmi,MODERATE,Both have sedative effects - excessive drowsiness,இரண்டும் மயக்கம் தரும் - அதிக தூக்கம் வரலாம்,Avoid combination - dangerous drowsiness
+I018,D026,Alprazolam,H001,Ashwagandha,MODERATE,Ashwagandha enhances sedative effect of alprazolam,அஸ்வகந்தா மயக்க விளைவை அதிகரிக்கும்,Use with caution - reduce dose if needed
+I019,D006,Metformin,H024,Jamun,MILD,Jamun has antidiabetic properties - monitor sugar,நாவல் சர்க்கரையை குறைக்கும் - கவனம் தேவை,Monitor blood sugar - generally safe in small amounts
+I020,D003,Combiflam,H006,Ginger,MILD,Both have anti-inflammatory effects - may increase GI irritation,இரண்டும் அழற்சியை குறைக்கும் - வயிறு பாதிக்கலாம்,Take with food - limit ginger
+I021,D022,Levothyroxine,H017,Fenugreek,MODERATE,Fenugreek may interfere with thyroid hormone absorption,வெந்தயம் தைராய்டு மருந்தின் உறிஞ்சுதலை பாதிக்கலாம்,Take thyroid medicine on empty stomach - separate from fenugreek by 4 hours
+I022,D039,Clopidogrel,H007,Garlic,SEVERE,Both prevent clotting - severe bleeding risk,இரண்டும் ரத்தம் உறையாமல் செய்யும் - உயிருக்கு ஆபத்தான ரத்தப்போக்கு,Avoid - consult cardiologist immediately
+I023,D016,Atorvastatin,H004,Turmeric,MILD,Turmeric may slightly affect statin metabolism,மஞ்சள் கொழுப்பு மருந்தின் வளர்சிதையை சிறிது பாதிக்கலாம்,Generally safe in food amounts - avoid high dose turmeric supplements
+I024,D036,Digoxin,H007,Garlic,MODERATE,Garlic may affect heart rate and digoxin levels,பூண்டு இதய மருந்தின் அளவை மாற்றலாம்,Monitor digoxin levels - consult cardiologist
+I025,D036,Digoxin,H002,Triphala,MODERATE,Triphala laxative effect may reduce digoxin absorption,திரிபலா மலமிளக்கும் விளைவு மருந்தை கொண்டுபோகலாம்,Separate doses by at least 2 hours
+I026,D006,Metformin,H008,Aloe Vera,MODERATE,Aloe vera lowers blood sugar - combined hypoglycemia risk,கற்றாழை சர்க்கரையை குறைக்கும் - சேர்ந்தால் மிகவும் குறையலாம்,Monitor blood sugar carefully
+I027,D024,Sertraline,H005,Tulsi,MILD,Tulsi may have mild serotonergic activity,துளசி மூளை வேதிப்பொருளை சிறிது பாதிக்கலாம்,Use with caution - monitor mood changes
+I028,D013,Atenolol,H020,Sarpagandha,SEVERE,Both lower heart rate and BP - dangerous combination,இரண்டும் இதய துடிப்பையும் ரத்த அழுத்தத்தையும் குறைக்கும் - மிகவும் ஆபத்து,Absolutely avoid - life threatening
+I029,D006,Metformin,H021,Guduchi,MILD,Guduchi may have mild blood sugar lowering effect,குடிலி சர்க்கரையை சிறிது குறைக்கலாம்,Monitor blood sugar - generally manageable
+I030,D015,Warfarin,H009,Amla,MODERATE,Amla high Vitamin C may affect warfarin metabolism,நெல்லிக்காய் வார்பரின் வளர்சிதையை பாதிக்கலாம்,Monitor INR closely - consult doctor
+I031,D014,Ecosprin,D015,Warfarin,DANGEROUS,Two blood thinners together - life threatening bleeding,இரண்டு ரத்த மெலிதாக்கிகள் சேர்ந்தால் உயிருக்கு ஆபத்தான ரத்தப்போக்கு,Never combine without strict medical supervision
+I032,D024,Sertraline,D026,Alprazolam,MODERATE,CNS depression - excessive sedation and confusion,இரண்டும் மூளையை மந்தமாக்கும் - அதிக தூக்கம் குழப்பம்,Use only if prescribed together - monitor closely
+I033,D006,Metformin,D042,Insulin,MODERATE,Both lower blood sugar - hypoglycemia risk,இரண்டும் சர்க்கரையை குறைக்கும் - அளவு சரியாக வைக்க வேண்டும்,Only use together if doctor prescribed both - monitor sugar
+I034,D035,Prednisolone,D006,Metformin,MODERATE,Steroids raise blood sugar - counteracts metformin,ஸ்டீராய்டு சர்க்கரையை ஏற்றும் - மெட்பார்மினை எதிர்க்கும்,Monitor blood sugar closely during steroid course
+I035,D022,Levothyroxine,H003,Neem,MILD,Neem may affect thyroid function,வேம்பு தைராய்டு செயல்பாட்டை பாதிக்கலாம்,Monitor thyroid levels if using neem regularly

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sevvi — Know Before You Mix</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <div class="nav-logo" onclick="showPage('home')">
+      <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+        <rect width="30" height="30" rx="9" fill="#00C896"/>
+        <circle cx="15" cy="15" r="5.5" fill="white" opacity="0.18"/>
+        <circle cx="15" cy="15" r="2.8" fill="white"/>
+        <path d="M15 4.5V9" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <path d="M15 21V25.5" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <path d="M4.5 15H9" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <path d="M21 15H25.5" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <path d="M7.5 7.5L10.8 10.8" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M19.2 19.2L22.5 22.5" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M22.5 7.5L19.2 10.8" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M7.5 22.5L10.8 19.2" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      <span class="nav-brand">Sevvi</span>
+    </div>
+    <div class="nav-links">
+      <a class="nav-link active" onclick="showPage('home')" id="nav-home">Home</a>
+      <a class="nav-link" onclick="showPage('checker')" id="nav-checker">Checker</a>
+      <a class="nav-link" onclick="showPage('history')" id="nav-history">History</a>
+      <a class="nav-link" onclick="showPage('about')" id="nav-about">About</a>
+    </div>
+    <div class="nav-right">
+      <button class="lang-pill active" id="ln-en" onclick="setLang('en')">EN</button>
+      <button class="lang-pill" id="ln-ta" onclick="setLang('ta')">த</button>
+    </div>
+  </div>
+</nav>
+
+<!-- HOME -->
+<div id="page-home" class="page active">
+  <section class="hero">
+    <div class="hero-badge" id="hero-badge">Tamil Nadu's Medicine Safety App</div>
+    <h1 class="hero-brand">Sevvi</h1>
+    <p class="hero-tagline" id="hero-tagline">Know Before You Mix.</p>
+    <p class="hero-sub" id="hero-sub">Check Siddha + Allopathy drug interactions before it's too late.<br>Voice enabled. Tamil supported.</p>
+    <div class="hero-btns">
+      <button class="btn-primary" onclick="showPage('checker')" id="hero-cta">Check Now</button>
+      <button class="btn-ghost" onclick="showPage('about')" id="hero-learn">Learn More</button>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-num">50+</div><div class="stat-lbl" id="s1">Medicines</div></div>
+      <div class="stat-sep"></div>
+      <div class="stat"><div class="stat-num">30+</div><div class="stat-lbl" id="s2">Siddha Herbs</div></div>
+      <div class="stat-sep"></div>
+      <div class="stat"><div class="stat-num">35+</div><div class="stat-lbl" id="s3">Known Interactions</div></div>
+    </div>
+  </section>
+
+  <section class="features-section">
+    <h2 class="sec-title" id="feat-title">Why Sevvi?</h2>
+    <div class="feat-grid">
+      <div class="feat-card"><div class="feat-ico ico-green"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div><h3 id="f1h">Siddha + Allopathy</h3><p id="f1p">First app to combine traditional Siddha herb and modern medicine interaction checks.</p></div>
+      <div class="feat-card"><div class="feat-ico ico-blue"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0014 0M12 19v3M8 22h8"/></svg></div><h3 id="f2h">Voice in Tamil</h3><p id="f2p">Speak medicine names in Tamil or English. Perfect for elderly patients.</p></div>
+      <div class="feat-card"><div class="feat-ico ico-purple"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><h3 id="f3h">Instant Results</h3><p id="f3p">Safe to Dangerous severity levels with Tamil + English explanations instantly.</p></div>
+      <div class="feat-card"><div class="feat-ico ico-orange"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg></div><h3 id="f4h">Indian Brands</h3><p id="f4p">Search Dolo, Crocin, Telma by brand name — no need for generic names.</p></div>
+      <div class="feat-card"><div class="feat-ico ico-teal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div><h3 id="f5h">History Saved</h3><p id="f5p">All your checks saved locally. Review anytime, no login needed.</p></div>
+      <div class="feat-card"><div class="feat-ico ico-red"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div><h3 id="f6h">AI Powered</h3><p id="f6p">Unknown combinations? Claude AI explains in simple Tamil and English.</p></div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="cta-band-inner">
+      <h2 id="cta-h">Ready to check your medicines?</h2>
+      <p id="cta-p">Free. No login. Offline for known interactions.</p>
+      <button class="btn-primary large" onclick="showPage('checker')" id="cta-btn">Start Checking</button>
+    </div>
+  </section>
+</div>
+
+<!-- CHECKER -->
+<div id="page-checker" class="page">
+  <div class="inner-wrap">
+    <div class="page-hdr">
+      <h2 id="ck-title">Drug Interaction Checker</h2>
+      <p id="ck-sub">Add medicines or herbs to check for interactions</p>
+    </div>
+    <div class="search-card">
+      <div class="input-row">
+        <div class="input-wrap">
+          <svg class="inp-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          <input class="drug-input" id="drug-input" type="text" placeholder="Search medicine or herb..." oninput="onInput()" onkeydown="onKey(event)" autocomplete="off"/>
+          <div id="suggestions" class="suggestions"></div>
+        </div>
+        <button class="mic-btn" id="mic-btn" onclick="toggleMic()">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0014 0M12 19v3M8 22h8"/></svg>
+        </button>
+        <button class="btn-add" onclick="addDrug()" id="add-btn">+ Add</button>
+      </div>
+      <div class="pills" id="pills-container">
+        <span class="pills-hint" id="pills-hint">Add 2 or more medicines to check</span>
+      </div>
+      <button class="btn-check" id="check-btn" onclick="checkInteractions()" disabled>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+        <span id="check-btn-text">Check Interactions</span>
+      </button>
+    </div>
+    <div id="voice-status" class="voice-status" style="display:none">
+      <span class="vdot"></span><span id="vtext">Listening in Tamil...</span>
+    </div>
+    <div id="results"></div>
+  </div>
+</div>
+
+<!-- HISTORY -->
+<div id="page-history" class="page">
+  <div class="inner-wrap">
+    <div class="page-hdr">
+      <h2 id="his-title">Check History</h2>
+      <p id="his-sub">Your recent interaction checks</p>
+      <button class="btn-ghost small" onclick="clearHistory()" id="clear-btn">Clear All</button>
+    </div>
+    <div id="history-list"></div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<div id="page-about" class="page">
+  <div class="inner-wrap">
+    <div class="about-top">
+      <svg width="64" height="64" viewBox="0 0 30 30" fill="none">
+        <rect width="30" height="30" rx="9" fill="#00C896"/>
+        <circle cx="15" cy="15" r="5.5" fill="white" opacity="0.18"/>
+        <circle cx="15" cy="15" r="2.8" fill="white"/>
+        <path d="M15 4.5V9" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <path d="M15 21V25.5" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <path d="M4.5 15H9" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <path d="M21 15H25.5" stroke="white" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <h1>Sevvi</h1>
+      <p class="about-tagline-text">Know Before You Mix.</p>
+      <p class="about-tamil-text" style="font-family:'Noto Sans Tamil',sans-serif">செவ்வி — மருந்து பாதுகாப்பு சோதனை</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-card"><h3>Why we built this</h3><p>In Tamil Nadu, millions use both Siddha/Ayurvedic medicines and modern allopathic drugs together — without knowing the risks. Dangerous combinations like Warfarin + Turmeric or BP medicine + Sarpagandha can be life-threatening. Sevvi makes it easy for everyone to check before mixing.</p></div>
+      <div class="about-card"><h3>Who it's for</h3><p>Patients managing multiple medicines, elderly people on long-term medication, caregivers, and anyone who takes both traditional herbs and modern medicines. No medical knowledge needed — just type or speak.</p></div>
+      <div class="about-card"><h3>How it works</h3><p>Sevvi uses a curated database of known drug-herb interactions specific to Tamil Nadu context. For combinations not in the database, Claude AI analyzes and explains in both Tamil and English.</p></div>
+      <div class="about-card warn"><h3>⚠ Disclaimer</h3><p>Sevvi is for informational purposes only and does not replace professional medical advice. Always consult your doctor or pharmacist before changing any medication.</p></div>
+    </div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

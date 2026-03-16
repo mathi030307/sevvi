@@ -1,0 +1,31 @@
+herb_id,tamil_name,english_name,common_use,category,active_compound
+H001,அஸ்வகந்தா,Ashwagandha,Stress/Energy/Immunity,Adaptogen,Withanolides
+H002,திரிபலா,Triphala,Digestion/Constipation,Laxative,Tannins/Gallic acid
+H003,வேம்பு,Neem,Skin/Blood Purifier/Diabetes,Antibacterial,Nimbin/Azadirachtin
+H004,மஞ்சள்,Turmeric,Inflammation/Immunity,Anti-inflammatory,Curcumin
+H005,துளசி,Tulsi,Cold/Cough/Immunity,Adaptogen,Eugenol
+H006,இஞ்சி,Ginger,Nausea/Digestion/Pain,Anti-inflammatory,Gingerol
+H007,பூண்டு,Garlic,Cholesterol/BP/Immunity,Cardiovascular,Allicin
+H008,கற்றாழை,Aloe Vera,Skin/Digestion/Diabetes,Healing,Aloin/Acemannan
+H009,நெல்லிக்காய்,Amla,Immunity/Hair/Diabetes,Antioxidant,Vitamin C/Tannins
+H010,சீரகம்,Cumin,Digestion/Diabetes/BP,Digestive,Cuminaldehyde
+H011,கோரோசன்,Brahmi,Memory/Anxiety/Brain,Nootropic,Bacosides
+H012,குங்குமப்பூ,Saffron,Depression/Memory/Heart,Antidepressant,Crocin/Safranal
+H013,வல்லாரை,Centella Asiatica,Memory/Wound Healing,Nootropic,Asiaticoside
+H014,கடுக்காய்,Haritaki,Digestion/Immunity,Laxative,Chebulinic acid
+H015,சித்தரத்தை,Long Pepper,Cold/Asthma/Digestion,Bronchodilator,Piperine
+H016,ஓமம்,Ajwain,Digestion/Gas/Pain,Antispasmodic,Thymol
+H017,வெந்தயம்,Fenugreek,Diabetes/Cholesterol/Digestion,Antidiabetic,Trigonelline
+H018,கருஞ்சீரகம்,Black Seed,Immunity/Asthma/Diabetes,Immunomodulator,Thymoquinone
+H019,முருங்கை,Moringa,Nutrition/Diabetes/BP,Nutritive,Isothiocyanates
+H020,சர்பகந்தா,Sarpagandha,Blood Pressure,Antihypertensive,Reserpine
+H021,குடிலி,Guduchi,Immunity/Fever/Diabetes,Immunomodulator,Tinosporine
+H022,ஆடாதோடை,Adhatoda,Cough/Asthma/Bronchitis,Bronchodilator,Vasicine
+H023,செம்பரத்தை,Hibiscus,BP/Cholesterol/Hair,Antihypertensive,Anthocyanins
+H024,நாவல்,Jamun,Diabetes/Digestion,Antidiabetic,Jamboline
+H025,கருவேப்பிலை,Curry Leaves,Diabetes/Hair/Digestion,Antidiabetic,Mahanimbine
+H026,பிப்பலி,Pippali,Digestion/Asthma/Immunity,Bioavailability enhancer,Piperine
+H027,சதாவரி,Shatavari,Hormonal Balance/Immunity,Adaptogen,Shatavarin
+H028,கஸ்தூரி மஞ்சள்,Kasturi Turmeric,Skin/Anti-inflammatory,Anti-inflammatory,Curcumin
+H029,திப்பிலி,Tippili,Cold/Cough/Asthma,Expectorant,Piperine
+H030,கொத்தமல்லி,Coriander,Digestion/Diabetes/Cholesterol,Digestive,Linalool

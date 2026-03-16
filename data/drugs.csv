@@ -1,0 +1,51 @@
+drug_id,brand_name,generic_name,category,common_use
+D001,Dolo 650,Paracetamol,Painkiller,Fever/Pain
+D002,Crocin,Paracetamol,Painkiller,Fever/Pain
+D003,Combiflam,Ibuprofen+Paracetamol,Painkiller,Fever/Pain
+D004,Brufen,Ibuprofen,Painkiller,Pain/Inflammation
+D005,Voveran,Diclofenac,Painkiller,Joint Pain
+D006,Metformin,Metformin,Antidiabetic,Diabetes
+D007,Glycomet,Metformin,Antidiabetic,Diabetes
+D008,Glimepiride,Glimepiride,Antidiabetic,Diabetes
+D009,Januvia,Sitagliptin,Antidiabetic,Diabetes
+D010,Amlodipine,Amlodipine,Antihypertensive,Blood Pressure
+D011,Telma,Telmisartan,Antihypertensive,Blood Pressure
+D012,Stamlo,Amlodipine,Antihypertensive,Blood Pressure
+D013,Atenolol,Atenolol,Beta Blocker,Blood Pressure/Heart
+D014,Ecosprin,Aspirin,Antiplatelet,Blood Thinner/Heart
+D015,Warfarin,Warfarin,Anticoagulant,Blood Thinner
+D016,Atorvastatin,Atorvastatin,Statin,Cholesterol
+D017,Lipitor,Atorvastatin,Statin,Cholesterol
+D018,Rosuvastatin,Rosuvastatin,Statin,Cholesterol
+D019,Pantoprazole,Pantoprazole,Antacid,Acidity/Ulcer
+D020,Omeprazole,Omeprazole,Antacid,Acidity/Ulcer
+D021,Pan D,Pantoprazole+Domperidone,Antacid,Acidity
+D022,Levothyroxine,Levothyroxine,Thyroid,Hypothyroidism
+D023,Eltroxin,Levothyroxine,Thyroid,Hypothyroidism
+D024,Sertraline,Sertraline,Antidepressant,Depression/Anxiety
+D025,Fluoxetine,Fluoxetine,Antidepressant,Depression
+D026,Alprazolam,Alprazolam,Anxiolytic,Anxiety/Sleep
+D027,Clonazepam,Clonazepam,Anxiolytic,Anxiety/Seizure
+D028,Amoxicillin,Amoxicillin,Antibiotic,Bacterial Infection
+D029,Azithromycin,Azithromycin,Antibiotic,Bacterial Infection
+D030,Cetirizine,Cetirizine,Antihistamine,Allergy
+D031,Allegra,Fexofenadine,Antihistamine,Allergy
+D032,Montek LC,Montelukast+Levocetirizine,Antihistamine,Allergy/Asthma
+D033,Deriphyllin,Theophylline+Etofylline,Bronchodilator,Asthma
+D034,Asthalin,Salbutamol,Bronchodilator,Asthma
+D035,Prednisolone,Prednisolone,Steroid,Inflammation/Asthma
+D036,Digoxin,Digoxin,Cardiac Glycoside,Heart Failure
+D037,Furosemide,Furosemide,Diuretic,Water Retention/BP
+D038,Spironolactone,Spironolactone,Diuretic,Water Retention
+D039,Clopidogrel,Clopidogrel,Antiplatelet,Blood Thinner
+D040,Ranitidine,Ranitidine,Antacid,Acidity
+D041,Dexamethasone,Dexamethasone,Steroid,Severe Inflammation
+D042,Insulin,Insulin,Antidiabetic,Diabetes Type 1
+D043,Codeine,Codeine,Opioid,Cough/Pain
+D044,Tramadol,Tramadol,Opioid,Moderate Pain
+D045,Gabapentin,Gabapentin,Anticonvulsant,Nerve Pain/Seizure
+D046,Phenytoin,Phenytoin,Anticonvulsant,Epilepsy
+D047,Valproate,Valproate,Anticonvulsant,Epilepsy
+D048,Lithium,Lithium,Mood Stabilizer,Bipolar Disorder
+D049,Ciprofloxacin,Ciprofloxacin,Antibiotic,Bacterial Infection
+D050,Metronidazole,Metronidazole,Antibiotic,Bacterial/Parasitic Infection
